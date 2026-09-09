@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cmd /c \"dir /a /s /b D:\\\\claude-test\\\\.claude\")",
+      "Bash(python *)",
+      "mcp__plugin_playwright_playwright__browser_click",
+      "mcp__plugin_playwright_playwright__browser_handle_dialog",
+      "Bash(git config *)",
+      "Bash(gh auth *)",
+      "Bash(git init *)"
+    ]
+  }
+}
